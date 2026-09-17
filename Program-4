@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int a, b;
+
+    printf("Enter two integer values: ");
+    scanf("%d %d", &a, &b);
+
+    printf("\nAND operation: %d & %d = %d", a, b, a & b);
+    printf("\nOR operation: %d | %d = %d", a, b, a | b);
+    printf("\nXOR operation: %d ^ %d = %d", a, b, a ^ b);
+
+    return 0;
+}
